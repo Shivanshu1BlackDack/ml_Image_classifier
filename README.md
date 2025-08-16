@@ -25,21 +25,24 @@ Get instant results while pointing your camera at objects.
 > 🟩 Food is highlighted in green  
 > 🟥 Non-Food is highlighted in red
 
-*(GIF of the webcam classifier in action)*
+<img width="600" height="400" alt="ml4" src="https://github.com/user-attachments/assets/acf9032a-e370-455b-be6d-4437fa57aa20" />
+
+<img width="600" height="400" alt="ml6" src="https://github.com/user-attachments/assets/058ff166-9afc-437f-b2b5-08909e9de54d" />
 
 ---
 
 ### Image Upload Mode
 Upload any supported image format and get predictions instantly.
 
-*(Screenshot of image upload with prediction)*
+<img width="600" height="400" alt="ml1" src="https://github.com/user-attachments/assets/d1666b24-3be8-4651-b225-3645fbdad217" />
+
 
 ---
 
 ## 🛠️ Technologies Used
 
 - **Python 3.8+**
-- **Streamlit** – Web app interface
+- **Streamlit** – Web app interface    
 - **TensorFlow / Keras** – Deep learning model
 - **OpenCV** – Webcam & image processing
 - **Pillow (PIL)** – Image handling
@@ -55,3 +58,39 @@ Upload any supported image format and get predictions instantly.
 
 ### 2️⃣ Install Dependencies
 Create a `requirements.txt` file with:
+streamlit
+tensorflow
+opencv-python-headless
+numpy
+Pillow
+
+### ▶️ Run the Application
+
+Run in terminal:
+
+streamlit run app.py
+
+(Replace app.py with your actual script name if different.)
+
+Your default browser will open the application automatically.
+
+### 🧠 Model Information
+
+Type: Pre-trained CNN (Convolutional Neural Network)
+Input Size: 224x224 pixels
+
+Classes:
+
+--Non-Food
+--Bread
+--Dairy product
+--Dessert
+--Egg
+--Fried food
+--Meat
+--Noodles
+--Rice
+--Seafood
+--Soup
+--Vegetable
+
