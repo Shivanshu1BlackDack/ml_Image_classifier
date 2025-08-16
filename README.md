@@ -81,16 +81,16 @@ Input Size: 224x224 pixels
 
 Classes:
 
---Non-Food
---Bread
---Dairy product
---Dessert
---Egg
---Fried food
---Meat
---Noodles
---Rice
---Seafood
---Soup
---Vegetable
+-Non-Food
+-Bread
+-Dairy product
+-Dessert
+-Egg
+-Fried food
+-Meat
+-Noodles
+-Rice
+-Seafood
+-Soup
+-Vegetable
 
