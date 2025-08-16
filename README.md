@@ -94,3 +94,12 @@ Classes:
 - Soup
 - Vegetable
 
+###📂 Project Structure
+your-repository-name/
+├── .streamlit/
+│   └── config.toml
+├── app.py
+├── exibition_recognition_model.h5
+├── requirements.txt
+└── README.md
+
